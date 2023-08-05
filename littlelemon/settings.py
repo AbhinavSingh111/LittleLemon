@@ -151,7 +151,7 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication', #remove it before going to production
     ),
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 4,
+    # 'PAGE_SIZE': 4,
     'DEFAULT_AUTHENTICATION_CLASSES' : ['rest_framework.authentication.TokenAuthentication',],
     'DEFAULT_THROTTLE_RATES':{
         'anon':'2/minute', #instead of using minute you can use second ,eehour or day
