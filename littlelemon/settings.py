@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'reservation',
     'rest_framework',
     'rest_framework.authtoken',
-    'djoser',
+    'djoser', #should be placed after rest_framework
 ]
 
 MIDDLEWARE = [
